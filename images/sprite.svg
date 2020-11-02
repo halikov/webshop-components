@@ -1,0 +1,24 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" id="arrow-right">
+    <path stroke="#272643" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.88" d="M6 15h17.5m-4.75 5l5-5m-5-5l5 5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 44 44" id="ball">
+    <path stroke="#272643" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.75" d="M21.5 39a16.5 16.5 0 100-33 16.5 16.5 0 000 33zM10.36 10.36l23.28 23.28M10 34l23-23M22 6a16 16 0 0016 16M5.5 22A16.5 16.5 0 0122 38.5"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 17" id="carret">
+    <path stroke="#7ED7FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.88" d="M1 1l7.5 7.5L1 16"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32" id="cross">
+    <path stroke="#2C3E50" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.75" d="M23.56 8.44L8.44 23.56m0-15.12l15.12 15.12"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 44 44" id="cup">
+    <path stroke="#272643" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.75" d="M9.17 11H27.5a1.83 1.83 0 011.83 1.83V27.5A7.33 7.33 0 0122 34.83h-7.33a7.33 7.33 0 01-7.34-7.33V12.83A1.83 1.83 0 019.17 11m20.16 5.5H33a3.67 3.67 0 013.67 3.67v3.66A3.67 3.67 0 0133 27.5h-3.67"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 19" id="heart">
+    <path fill="#FF5F5F" d="M11 19l-8.75-8.75a5.53 5.53 0 118.13-7.5 1.12 1.12 0 001.24 0 5.53 5.53 0 018.13 7.5L11 19z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 44 44" id="wallet">
+    <path stroke="#272643" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.75" d="M34.5 29v5.5a1.83 1.83 0 01-1.83 1.83h-22A3.67 3.67 0 017 32.67v-22m23.83 3.66v-5.5A1.83 1.83 0 0029 7H10.67a3.67 3.67 0 100 7.33h22a1.83 1.83 0 011.83 1.84v5.5l-3.67-7.34z"></path>
+    <path stroke="#272643" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.75" d="M36.67 22v7.33h-7.34a3.67 3.67 0 010-7.33h7.34z"></path>
+  </symbol>
+</svg>

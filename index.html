@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fonts from fonts.google -->
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles/index.css">
+  <title>webshop components</title>
+</head>
+
+<body class="body">
+  <div class="container">
+    <div class="container__content">
+      <h4 class="container__title">Some title</h4>
+      <p class="container__text">Up to 70% <strong>discount</strong> on the season end products.</p>
+    </div>
+    <button class="button button__carret">
+      <svg class="button__icon sprite" width="44" height="44">
+        <use class="sprite__icon" href="images/sprite.svg#carret"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="container container--paypal">
+    <div class="container__content">
+      <div class="container__icon">
+        <img src="images/paypal.png" width="35" height="45" alt="PayPal">
+      </div>
+      <h4 class="container__title">PayPal</h4>
+      <p class="container__text container__text--paypal">Up to 70% <strong>discount</strong> on the season end products.
+      </p>
+    </div>
+    <button class="button button__carret">
+      <svg class="button__icon sprite" width="44" height="44">
+        <use class="sprite__icon" href="images/sprite.svg#carret"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="products">
+    <ul class="products__list">
+      <li class="products__item product">
+        <div class="product__container">
+          <div class="product__content">
+            <svg class="product__icon" width="44" height="44">
+              <use href="images/sprite.svg#ball"></use>
+            </svg>
+            <h5 class="product__title">Sportswear</h5>
+            <p class="product__text">
+              <span class="product__value">167</span>
+              items
+            </p>
+          </div>
+          <a class="products__link link" href="#">
+            <svg class="link__icon" width="30" height="30">
+              <use href="images/sprite.svg#arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </li><!-- product -->
+      <li class="products__item product">
+        <div class="product__container">
+          <div class="product__content">
+            <svg class="product__icon" width="44" height="44">
+              <use href="images/sprite.svg#wallet"></use>
+            </svg>
+            <h5 class="product__title">Accessories</h5>
+            <p class="product__text">
+              <span class="product__value">167</span>
+              items
+            </p>
+          </div>
+          <a class="products__link link" href="#">
+            <svg class="link__icon" width="30" height="30">
+              <use href="images/sprite.svg#arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </li><!-- product -->
+      <li class="products__item product">
+        <div class="product__container">
+          <div class="product__content">
+            <svg class="product__icon" width="44" height="44">
+              <use href="images/sprite.svg#cup"></use>
+            </svg>
+            <h5 class="product__title">Accessories</h5>
+            <p class="product__text">
+              <span class="product__value">167</span>
+              items
+            </p>
+          </div>
+          <a class="products__link link" href="#">
+            <svg class="link__icon" width="30" height="30">
+              <use href="images/sprite.svg#arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </li><!-- product -->
+    </ul>
+  </div>
+
+  <!-- filter search -->
+  <div class="wrapper">
+    <form action="" class="filter">
+      <label class="filter__label" for="woman">
+        <input class="filter__input" type="radio" name="gender" id="woman" checked>
+        <span class="filter__text">Woman</span>
+      </label>
+      <label class="filter__label" for="man">
+        <input class="filter__input" type="radio" name="gender" id="man">
+        <span class="filter__text">Man</span>
+      </label>
+      <label class="filter__label" for="kids">
+        <input class="filter__input" type="radio" name="gender" id="kids">
+        <span class="filter__text">Kids</span>
+      </label>
+    </form>
+  </div>
+
+
+  <!-- image thumbnail -->
+
+  <div class="thumbnail">
+    <img src="images/bag.jpg" width="430" height="410" alt="Bag">
+    <div class="thumbnail__badge">
+      <svg class="thumbnail__sprite" width="21" height="18">
+        <use href="images/sprite.svg#heart"></use>
+      </svg>
+    </div>
+    <ul class="thumbnail__list">
+      <li class="thumbnail__item">
+        <button class="thumbnail__button thumbnail__button--active" type="button"></button>
+      </li>
+      <li class="thumbnail__item">
+        <button class="thumbnail__button" type="button"></button>
+      </li>
+      <li class="thumbnail__item">
+        <button class="thumbnail__button" type="button"></button>
+      </li>
+      <li class="thumbnail__item">
+        <button class="thumbnail__button" type="button"></button>
+      </li>
+    </ul>
+  </div>
+
+  <!-- popup -->
+  <div class="popup">
+    <div class="popup__wrapper">
+      <div class="popup__content">
+        <h6 class="popup__title">Check our sales.</h6>
+        <p class="popup__text">Up to <strong>70% discount</strong> on the season end products.</p>
+      </div>
+      <div class="popup__icon">
+        <svg class="popup__sprite" width="30" height="30">
+          <use href="images/sprite.svg#cross"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
